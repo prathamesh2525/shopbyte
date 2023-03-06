@@ -5,7 +5,9 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      <AllRoutes />
+      <main>
+        <AllRoutes />
+      </main>
       <Footer />
     </div>
   )

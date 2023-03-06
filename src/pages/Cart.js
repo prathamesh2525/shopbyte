@@ -21,13 +21,13 @@ export const Cart = ({ title }) => {
 
   useTitle(title)
   return (
-    <main className="h-screen">
+    <main>
       <section className="max-w-7xl mx-auto my-10 ">
         <div className="flex flex-col items-center justify-center gap-4">
           <p className="text-3xl font-bold">Cart Items: {products.length}</p>
 
           {products.map((product) => (
-            <CartItem key={product.id} product={product} />
+            <CartItem key={product} product={product} />
           ))}
         </div>
       </section>
