@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <footer>
       <div className="flex justify-around items-center p-8 bg-gray-100">
-        <p className="text-2xl">@Shopping Cart 2023</p>
+        <p className="text-2xl">@Shopbyte 2023</p>
         <div className="flex gap-4 ">
           <a
             className="text-xl hover:underline hover:text-blue-600 transition-all duration-200"

@@ -12,7 +12,7 @@ export const Header = () => {
           <NavLink onClick={() => setActive(!active)} to={"/"}>
             <div className="flex items-center gap-2 ">
               <img className="w-14" src={Logo} alt="Logo" />
-              <h1 className="text-3xl">Shopping Cart</h1>
+              <h1 className="text-3xl">Shopbyte</h1>
             </div>
           </NavLink>
           <div className="flex items-center ">
